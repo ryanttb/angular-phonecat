@@ -19,6 +19,14 @@
   <h2>{{ 1304375948024 | date }}</h2>
   <h2>{{ 1306185807024 | date:'MM/dd/yyyy @ h:mma' }}</h2>
 
+  <h2>Input with filtering</h2>
+
+  <label>
+  <input ng-model="userInput">
+  <span>uppercase {{userInput | uppercase }}</span>
+  </label>
+
+
   <div ng-view></div>
 
 </body>
