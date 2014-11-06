@@ -13,6 +13,12 @@
 </head>
 <body>
 
+  <h1>Built-in angular filters</h1>
+  <h2>{{ 'lower cap string' | uppercase }}</h2>
+  <h2>{{ {foo: 'bar', baz: 23} | json }}</h2>
+  <h2>{{ 1304375948024 | date }}</h2>
+  <h2>{{ 1306185807024 | date:'MM/dd/yyyy @ h:mma' }}</h2>
+
   <div ng-view></div>
 
 </body>
